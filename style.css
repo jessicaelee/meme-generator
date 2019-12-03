@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+}
+
+body {
+    font-family: "M PLUS 1p", sans-serif;
+    /* padding: 20px 75px; */
+    background-image: url("memphis-mini.png");
+    text-align: justify;
+}
+
+header {
+    /* font-family: "Indie Flower", cursive; */
+    padding: 20px 75px 10px 75px;
+}
+
+h1 {
+    font-family: "Baloo Bhai", cursive;
+    margin-bottom: -15px;
+    font-size: 45px;
+}
+
+#form {
+    margin: 0% 10%;
+    padding: 10px 20px;
+    background: #f9f5d2;
+}
+
+input {
+    width: 75%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 18px;
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.upload-file {
+    font-size: 12px;
+}
+
+#qualities {
+    padding-bottom: 15px;
+}
+
+#meme-heading {
+    font-family: "Baloo Bhai", cursive;
+    padding: 0px 75px;
+    margin: 30px 0px;
+    font-size: 20px;
+    position: relative;
+}
+
+#meme-library {
+    padding: 5px;
+    text-align: justify;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#meme-library div {
+    padding: 3px;
+    position: relative;
+    width: 49%;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    /* margin: auto; */
+    display: inline-block;
+}
+
+#top-text-input {
+    margin-top: 10px;
+    position: absolute;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    right: 1px;
+    font-size: 3vw;
+    overflow: hidden;
+    height: 25%;
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+}
+
+#bottom-text-input {
+    margin-top: 49%;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    right: 1px;
+    font-size: 3vw;
+    overflow: hidden;
+    height: 25%;
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+}
+
+#delete-text {
+    margin-top: 35%;
+    position: absolute;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    right: 1px;
+    font-size: 2vw;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+#meme-library div:hover {
+    opacity: 0.6;
+}
