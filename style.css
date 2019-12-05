@@ -36,10 +36,12 @@ button {
     margin-top: 18px;
     margin-right: 5px;
     font-size: 14px;
+    font-family: sans-serif, Arial;
     padding: 3px;
     display: inline-block;
     text-align: center;
     border-radius: 10%;
+    background-color: white;
 }
 
 .upload-file {
